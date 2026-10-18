@@ -186,12 +186,12 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Blue Archive Player";
+        content: "developer?";
     }21%,
     40%{
     content: "Sigma";
          }41%,60%{
-    content: "Hello123";
+    content: "chill guy";
                    }
     61%,80%{
         content: "good guy";
@@ -405,4 +405,31 @@ span{
 .btn:hover{
     transform: scale(1.03);
     box-shadow: 0 0 25px var(--bg-color);
+}
+
+.social-icons2 a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    font-size: 2.5rem;
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 5rem 2.5rem 2rem 1rem;
+    margin-left: 15%;
+    transition: 0.3s ease-in-out;
+}
+.social-icons2 a:hover {
+    color: white;
+    transform: scale(1.2) translateY(-5px);
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+}
+
+.contact h2 span{
+    color: var(--main-color);
+    text-shadow: 0 0 50px var(--main-color);
 }
