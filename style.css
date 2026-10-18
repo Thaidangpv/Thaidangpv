@@ -295,3 +295,114 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
+.toolkit{
+    background: var(--bg-color);
+    color: white;
+
+}
+.toolkit h2{
+    margin-bottom: 5rem;
+    color: white;
+}
+.toolkit-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.toolkit-box{
+    background-color: var(--main-color);
+    color: black;
+    height: 250px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.toolkit-box:hover{
+    background: white;
+    color: var(--main-color);
+    transform: scale(1.03);
+}
+.toolkit-box .toolkit-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5em;
+}
+.toolkit-info h4{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.toolkit-info p{
+    font-size: 1.9rem;
+    font-weight: 400;
+    max-height: 100px;
+    margin: 0;
+    text-align: left;
+}
+.toolkit h2 span {
+    color: var(--main-color);
+    text-shadow: 0 0 50px var(--main-color);
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+.project h2{
+    margin-bottom: 5rem;
+    color: white;
+}
+.project-box{
+    background-color: var(--main-color);
+    color: black;
+    height: 250px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: #111111 1px 1px 2px 1px;
+}
+/*.project-box:hover {
+    background: white;
+    color: var(--main-color);
+    transform: scale(1.03);
+}*/
+
+.project-box .project-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5em;
+}
+.project-info h4{
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--bg-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: white;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 25px var(--bg-color);
+}
